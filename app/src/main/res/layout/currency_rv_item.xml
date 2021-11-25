@@ -19,7 +19,6 @@
             android:layout_margin="2dp"
             android:padding="3dp"
             android:text="Symbol"
-            android:layout_toLeftOf="@id/idRLCurrency"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
@@ -28,6 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/symbol"
             android:text="Name"
+            android:id="@+id/name"
             android:textColor="@color/white"
             android:padding="3dp"
             android:layout_margin="2dp" />

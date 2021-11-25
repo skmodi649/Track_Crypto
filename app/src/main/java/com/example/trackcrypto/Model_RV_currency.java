@@ -1,8 +1,8 @@
 package com.example.trackcrypto;
 
 public class Model_RV_currency {
-    private String name;
-    private String symbol;
+    private static String name;
+    private static String symbol;
     private double price;
 
     public Model_RV_currency(String name, String symbol, double price) {
@@ -11,7 +11,7 @@ public class Model_RV_currency {
         this.price = price;
     }
 
-    public String getName() {
+    public static String getName() {
         return name;
     }
 
@@ -19,7 +19,7 @@ public class Model_RV_currency {
         this.name = name;
     }
 
-    public String getSymbol() {
+    public static String getSymbol() {
         return symbol;
     }
 
